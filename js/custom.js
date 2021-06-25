@@ -32,10 +32,10 @@ window.addEventListener('resize', () => {
 }, false)
 window.addEventListener('scroll', () => {
     if (window.pageYOffset > 0) {
-        navigation.style.padding = '15px'
+        navigation.style.padding = '15px 0'
     }
     else {
-        navigation.style.padding = '30px 15px'
+        navigation.style.padding = '30px 0'
     }
 })
 
