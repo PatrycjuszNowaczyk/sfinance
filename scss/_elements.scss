@@ -1,0 +1,46 @@
+.btn {
+    border-radius: 2em;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.3em 2.33em;
+    font-weight: bold;
+    color: $primary-color;
+    background-color: $yellow-color;
+    border-color: $yellow-color;
+    text-transform: uppercase;
+    line-height: 1.4rem;
+    &:hover{
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+        color: $white-color;
+    }
+    &.--border-only{
+        background-color: transparent;
+        color: $yellow-color;
+        text-transform: unset;
+        font-weight: 300;
+        &:hover{
+            background-color: $yellow-color;
+            color: $primary-color;
+            border-color: $yellow-color;
+        }
+    }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    line-height: 1.5;
+    color: $primary-color;
+}
+
+a{
+    color: $secondary-color;
+    &:hover{
+        text-decoration: none;
+        color: $yellow-color;
+        transition: all 0.3s ease;
+    }
+}
+
+p{
+    font-weight: 300;
+}
